@@ -1,30 +1,35 @@
-// src/App.jsx
+// App.jsx — Day 1 Exercises
+// Exercise 2: Title changed from "Vite + React" to "Hello World"
 
-import './App.css';
-import Header from './components/Header';
-import PopularSites from './components/PopularSites';
-import AlertBox from './components/AlertBox';
-import CurrentYear from './components/CurrentYearComp';
-import Footer from './components/Footer';
+import ReactWebsites from "./components/PopularSites";
+import Dummy from "./components/Dummy";
+import CurrentYear from "./components/CurrentYearComp";
+import Header from "./components/Header";
 
-function App() {
+export default function App() {
   return (
-    <div className="app">
+    <div>
+
       <Header />
 
-      <main className="app-main">
-        <div className="app-hero">
-          <h1>Hello World</h1>
-          <p>A React learning project — components, JSX, and clean structure.</p>
-        </div>
-        <PopularSites /> 
-        <AlertBox />  
-        <CurrentYear />
-      </main>
+      <h1>Hello World</h1>        {/* Exercise 2: Changed title */}
 
-      <Footer />
+      <hr />
+
+      <h2>Introduction to React</h2>
+      <ReactWebsites />
+
+      <hr />
+
+      <h2>Dummy Data</h2>
+      <Dummy />
+
+      <hr />
+
+      <h2>JSX & Current Year</h2>
+      <CurrentYear />
+
+
     </div>
   );
 }
-
-export default App;

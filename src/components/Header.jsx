@@ -1,22 +1,14 @@
-// src/components/Header.jsx
-
-import './Header.css';
+// Header.jsx — Exercise 5: Your First Component
 
 function Header() {
   return (
-    <header className="header">
-      <span className="header-logo">practice-app</span>
-
-      <nav className="header-nav">
-        <ul>
-          {['Home', 'About', 'Contact'].map((link) => (
-            <li key={link}>
-              <a href="#">{link}</a>
-            </li>
-          ))}
-        </ul>
-      </nav>
-    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
   );
 }
 
