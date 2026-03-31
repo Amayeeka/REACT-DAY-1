@@ -1,0 +1,18 @@
+Here are three popular websites built with React, along with a reusable component on each
+
+1.FACEBOOK
+
+Reusable component -> Post Card
+-Every single post on Facebook's feed — whether it's a photo, video, or status update — is the same Post Card component rendered with different data.
+
+2.INSTAGRAM
+
+Reusable Component -> Photo Grid Tile
+-Every tile in Instagram's Explore grid is the same component — just a different image, like count, and link.
+
+3.WHATSAPP WEB 
+
+Reusable Component -> Chat List Item
+
+-Every row in WhatsApp's left sidebar is the same ChatItem component — avatar, name, last message preview, timestamp — just different contact data each time.
+
