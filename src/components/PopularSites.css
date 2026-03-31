@@ -1,0 +1,76 @@
+/* src/components/PopularSites.css */
+
+.popular-sites {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.popular-sites-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.sites-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.site-row {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.8rem 1rem;
+}
+
+.site-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+}
+
+.site-emoji { font-size: 1.2rem; margin-top: 2px; }
+
+.site-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  flex: 1;
+}
+
+.site-top {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.site-name {
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.site-arrow { color: var(--muted); font-size: 0.85rem; }
+
+.site-component {
+  font-family: monospace;
+  font-size: 0.82rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.site-description {
+  font-size: 0.82rem;
+  color: var(--muted);
+  line-height: 1.5;
+  margin: 0;
+}

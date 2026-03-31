@@ -2,6 +2,7 @@
 
 import './App.css';
 import Header from './components/Header';
+import PopularSites from './components/PopularSites';
 import AlertBox from './components/AlertBox';
 import CurrentYear from './components/CurrentYearComp';
 import Footer from './components/Footer';
@@ -16,7 +17,7 @@ function App() {
           <h1>Hello World</h1>
           <p>A React learning project — components, JSX, and clean structure.</p>
         </div>
-
+        <PopularSites /> 
         <AlertBox />  
         <CurrentYear />
       </main>
